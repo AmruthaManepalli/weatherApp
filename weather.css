@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  center {
+    width: 80%; 
+    margin: 40px auto; 
+    text-align: center; 
+  }
+  h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 50%; 
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+  }
+  
+  button{
+    background-color: #4CAF50; 
+    color: #fff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41; 
+  }
+  
+  #info {
+    margin-top: 20px;
+  }
+  
+  .city {
+    background-color: #f7f7f7; 
+    padding: 20px;
+    border: 1px solid #ddd; /* light gray border */
+    border-radius: 100px; /* rounded corners */
+    box-shadow: 0 10px rgba(0, 0, 0, 0.1); /* add some shadow */
+  }
+  
+  .city p {
+    margin-bottom: 10px;
+  }
+  
+  sup {
+    font-size: 12px;
+    vertical-align: super;
+  }
